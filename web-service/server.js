@@ -6,11 +6,16 @@ const autosController = require('./controllers/autos');
 var bodyParser = require('body-parser');
 
 
-db.connection.authenticate().then(() => {
-  console.log("Db connected!");
-}).catch(err => {
-  console.error('Db is not connected', err);
-});
+const int = setInterval(() => {
+  console.log('trying to connect to db...');
+  db.connection.authenticate().then(() => {
+    console.log("Db connected!");
+    clearInterval(int);
+  }).catch(err => {
+    console.error('Db is not connected', err);
+  });
+}, 3000);
+
 
 app.use(bodyParser.json());       // to support JSON-encoded bodies
 app.use(bodyParser.urlencoded({     // to support URL-encoded bodies
