@@ -1,0 +1,121 @@
+@import "../vars";
+
+.auto-create-wrap {
+}
+
+.create-section-container {
+  height: 100%;
+  width: 100%;
+  padding: 0 $create-section-container;
+}
+
+.forms-wrap {
+  padding: 35px 0;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+
+  .create-people-wrap, .create-ts-wrap {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid $grayBorder;
+    padding: 0 65px;
+    padding-bottom: 70px;
+  }
+
+  .create-people-wrap {
+    margin-right: 20px;
+
+    .create-people-header-wrap {
+      font-size: 18px;
+      display: inline-flex;
+      margin: 0 auto;
+      background-color: #fff;
+      padding: 20px;
+      margin-bottom: 10px;
+      margin-top: -35px;
+      text-align: center;
+    }
+
+  }
+
+  .create-ts-wrap {
+    margin-left: 20px;
+
+    .create-ts-header-wrap {
+      margin-bottom: 10px;
+
+      display: inline-flex;
+      margin: 0 auto;
+      background-color: #fff;
+      padding: 20px;
+      margin-top: -35px;
+      text-align: center;
+    }
+  }
+}
+
+.create-people-inputs-wrap__left-col, .create-people-inputs-wrap__right-col {
+  display: flex;
+  flex-direction: column;
+  padding: 0 40px;
+}
+
+.create--input {
+  border: none;
+  background-color: $lightGray;
+  border: 1px solid $grayBorder;
+  padding: 0 5px;
+}
+
+.create-people-label {
+  font-size: 15px;
+  font-weight: 300;
+  margin-left: 5px;
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+
+.add-model-link {
+  margin-top: 5px;
+  cursor: pointer;
+  margin-left: 5px;
+  color: #006ac5 !important;
+  font-size: 14px;
+
+  &:hover {
+    text-decoration: underline !important;
+  }
+}
+
+.checkup-form {
+  margin-top: 20px;
+}
+
+.chekup-header-wrap {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.add-new-auto-button-wrap {
+  margin-left: $create-section-container + 10;
+  margin-top: 20px;
+
+  .add-new-auto-button {
+    cursor: pointer;
+
+    padding: 5px 20px;
+    background-color: #3d47ee;
+    color: #fff;
+    display: inline-flex;
+  }
+}
+
+.mat-select {
+  min-width: 100%;
+  border-bottom: 1px solid $middleGray;
+  font-size: 14px;
+  margin-top: 5px;
+  padding-left: 5px;
+}

@@ -1,0 +1,57 @@
+<div class="table-wrapper">
+  <mat-table #table [dataSource]="dataSource">
+
+    <!-- Position Column -->
+    <ng-container matColumnDef="id_auto">
+      <mat-header-cell *matHeaderCellDef> ID</mat-header-cell>
+      <mat-cell *matCellDef="let element"> {{element.id_auto}} </mat-cell>
+    </ng-container><!--<ng-container matColumnDef="position">
+    <mat-header-cell *matHeaderCellDef> ID </mat-header-cell>
+    <mat-cell *matCellDef="let element"> {{element.position}} </mat-cell>
+  </ng-container>-->
+
+    <!-- Name Column -->
+    <ng-container matColumnDef="year">
+      <mat-header-cell *matHeaderCellDef> Год</mat-header-cell>
+      <mat-cell *matCellDef="let element"> {{element.year}} </mat-cell>
+    </ng-container>
+
+    <ng-container matColumnDef="oil">
+      <mat-header-cell *matHeaderCellDef> Топливо</mat-header-cell>
+      <mat-cell *matCellDef="let element"> {{element.oilName}} </mat-cell>
+    </ng-container>
+
+    <ng-container matColumnDef="checkUp">
+      <mat-header-cell *matHeaderCellDef> Техосмотр</mat-header-cell>
+      <mat-cell *matCellDef="let element"> {{element.id_checkup ? 'Пройден' : 'Просрочен'}} </mat-cell>
+    </ng-container>
+
+    <!-- Weight Column -->
+    <ng-container matColumnDef="number">
+      <mat-header-cell *matHeaderCellDef> Номер</mat-header-cell>
+      <mat-cell *matCellDef="let element"> {{element.number}} </mat-cell>
+    </ng-container>
+
+    <!-- Symbol Column -->
+    <ng-container matColumnDef="category">
+      <mat-header-cell *matHeaderCellDef> Категория</mat-header-cell>
+      <mat-cell *matCellDef="let element"> {{element.categoryName}} </mat-cell>
+    </ng-container>
+
+    <ng-container matColumnDef="brand">
+      <mat-header-cell *matHeaderCellDef> Марка</mat-header-cell>
+      <mat-cell *matCellDef="let element"> {{element.brandName}} </mat-cell>
+    </ng-container>
+
+    <ng-container matColumnDef="model">
+      <mat-header-cell *matHeaderCellDef> Модель</mat-header-cell>
+      <mat-cell *matCellDef="let element"> {{element.modelName}} </mat-cell>
+    </ng-container>
+
+    <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+    <mat-row (click)="showAuto(row)" *matRowDef="let row; columns: displayedColumns;"></mat-row>
+  </mat-table>
+
+</div>
+
+

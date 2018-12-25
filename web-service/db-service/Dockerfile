@@ -1,0 +1,9 @@
+FROM mysql:5.7.22
+
+#ENV MYSQL_ROOT_PASSWORD ''
+ENV MYSQL_DATABASE 'AUTO_CRM'
+#ENV MYSQL_USER users_service
+#ENV MYSQL_PASSWORD 123
+ENV MYSQL_ALLOW_EMPTY_PASSWORD 'yes'
+
+ADD auto-crm.sql /docker-entrypoint-initdb.d

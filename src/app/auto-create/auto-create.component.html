@@ -1,0 +1,99 @@
+<div class="auto-create-wrap create-section-container">
+  <div class="forms-wrap">
+    <div class="left-col col-lg-6">
+      <div class="create-people-wrap">
+        <div class="create-people-header-wrap">
+          <h5 class="header-5">Владелец</h5>
+        </div>
+        <div class="create-people-inputs-wrap row">
+          <div class=" col-lg-6 create-people-inputs-wrap__left-col">
+            <label class="create-people-label">Имя</label>
+            <input type="text" class="create-people-input create--input" *ngIf="auto" [(ngModel)]="auto.person.name">
+            <label class="create-people-label">Фамилия</label>
+            <input type="text" class="create-people-input create--input" *ngIf="auto"
+                   [(ngModel)]="auto.person.secondName">
+            <label class="create-people-label">Отчество</label>
+            <input type="text" class="create-people-input create--input" *ngIf="auto"
+                   [(ngModel)]="auto.person.thirdName">
+          </div>
+          <div class="col-lg-6 create-people-inputs-wrap__right-col ">
+            <label class="create-people-label">Номер телефона</label>
+            <input type="text" class="create-people-input create--input" *ngIf="auto" [(ngModel)]="auto.person.phone">
+            <label class="create-people-label">Адрес</label>
+            <textarea rows="3" *ngIf="auto" [(ngModel)]="auto.person.address"></textarea>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="right-col col-lg-6">
+      <div class="create-ts-wrap">
+        <div class="create-ts-header-wrap">
+          <h5 class="header5">Транспортное средство</h5>
+        </div>
+        <div class="create-ts-inputs-wrap row">
+          <div class="col-lg-6 d-flex flex-column">
+            <label class="create-people-label">ID</label>
+            <input type="text" class="create--input" *ngIf="auto" [(ngModel)]="auto.id_auto" disabled>
+            <label class="create-people-label">Регистрационный номер*</label>
+            <input class="create--input" type="text" *ngIf="auto" [(ngModel)]="auto.number">
+            <label class="create-people-label">Марка*</label>
+            <mat-select placeholder="Выберите марку" *ngIf="auto" (change)="onBrandChange()"
+                        [(ngModel)]="selectedBrandValue" name="brand">
+              <mat-option *ngFor="let brand of brands" [value]="brand">
+                {{brand.name}}
+              </mat-option>
+            </mat-select>
+            <label class="create-people-label">Модель*</label>
+            <mat-select placeholder="Выберите модель" *ngIf="auto" [(ngModel)]="selectedModelValue" name="model">
+              <mat-option *ngFor="let model of selectedBrandValue.models" [value]="model">
+                {{model.name}}
+              </mat-option>
+            </mat-select>
+            <a class="add-model-link" mat-raised-button (click)="openModelDialog()">Добавить модель</a>
+          </div>
+          <div class="col-lg-6 d-flex flex-column">
+            <label class="create-people-label">Топливо*</label>
+            <mat-select *ngIf="data && data.oils && auto" placeholder="Выберите модель" [(ngModel)]="auto.oil"
+                        name="model">
+              <mat-option *ngFor="let oil of data.oils" [value]="oil">
+                {{oil.name}}
+              </mat-option>
+            </mat-select>
+            <label class="create-people-label">Категория ТС</label>
+            <input type="text" class="create--input" disabled value="{{selectedModelValue?.category?.name}}">
+            <label class="create-people-label">Особые пометки</label>
+            <textarea type="text"></textarea>
+          </div>
+          <div class="checkup-form col-lg-12">
+            <div class="chekup-header-wrap">
+              <h5 class="header-5">Техосмотр</h5>
+            </div>
+            <div class="checkup-inputs-wrap row">
+              <div class="col-lg-12">
+                <div class="checkup-checkbox-wrap"></div>
+              </div>
+              <div class="col-lg-6">
+                <label>Дата прохождения</label>
+                <input type="date" class="create--input" *ngIf="auto && auto.checkup"
+                       [(ngModel)]="auto.checkup.dateStart">
+                <input type="date" class="create--input" *ngIf="!auto || !auto.checkup"
+                       [(ngModel)]="newCheckup.dateStart">
+              </div>
+              <div class="col-lg-6">
+                <label>Дата окончания</label>
+                <input type="date" class="create--input" *ngIf="auto && auto.checkup"
+                       [(ngModel)]="auto.checkup.dateEnd">
+                <input type="date" class="create--input" *ngIf="!auto || !auto.checkup"
+                       [(ngModel)]="newCheckup.dateEnd">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="add-new-auto-button-wrap">
+        <div class="add-new-auto-button" *ngIf="!id" (click)="addAuto()">Создать</div>
+        <div class="add-new-auto-button" *ngIf="id" (click)="saveAuto()">Сохранить</div>
+      </div>
+    </div>
+  </div>
+</div>

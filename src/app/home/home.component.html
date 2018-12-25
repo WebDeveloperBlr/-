@@ -1,0 +1,33 @@
+<div class="home-wrapper home-container">
+  <div class="nav-wrapper">
+    <nav mat-tab-nav-bar>
+      <a mat-tab-link
+         *ngFor="let link of navLinks"
+         [routerLink]="link.path"
+         routerLinkActive #rla="routerLinkActive"
+         [active]="rla.isActive">
+        {{link.label}}
+      </a>
+    </nav>
+    <div class="right-col">
+      <div class="filter-icon-wrapper">
+        <i class="fa fa-filter" (click)="toggleFilter()"></i>
+      </div>
+    </div>
+  </div>
+
+  <app-filter-bar [@filterState]="isFilterActive"></app-filter-bar>
+  <div class="router-wrapper">
+    <router-outlet></router-outlet>
+  </div>
+  <div class="table-editor" *ngIf="router.url === '/auto' || router.url === '/people'">
+    <div class="left-col">
+      <app-pagination></app-pagination>
+      <div class="add-button-wrap">
+        <a class="add-button" routerLink="/create">
+          <span class="fa">+</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,15 @@
+@import "../vars";
+
+.add-button-wrap {
+  margin-top: 10px;
+  margin-bottom: 20px;
+
+  .add-button {
+    cursor: pointer;
+
+    padding: 5px 20px;
+    background-color: #3d47ee;
+    color: #fff;
+    display: inline-flex;
+  }
+}

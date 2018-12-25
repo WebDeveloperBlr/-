@@ -1,0 +1,92 @@
+@import "../vars";
+
+.home-wrapper {
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.router-wrapper {
+  overflow: hidden;
+  height: 100%;
+  position: relative;
+}
+
+.mat-table {
+  overflow: auto;
+
+  max-height: 100%;
+}
+
+.mat-tab-nav-bar {
+  border: none;
+  z-index: 999;
+}
+
+.filter-icon-wrapper {
+  margin-right: 20px;
+
+  .fa {
+    font-size: 20px;
+    color: $jetBlack;
+    cursor: pointer;
+  }
+}
+
+.table-editor {
+  padding: 0 $p-container;
+  min-height: $filter-bar-height;
+  z-index: 99;
+  bottom: 0;
+  background-color: transparent;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .left-col {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    .add-button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 100%;
+      width: 45px;
+      height: 45px;
+      background-color: $lightGray;
+
+      &:hover {
+        text-decoration: none;
+      }
+
+      .fa {
+        font-size: 45px;
+        font-weight: 800;
+        cursor: pointer;
+        color: $middleGray;
+      }
+    }
+
+  }
+}
+
+.nav-wrapper {
+  z-index: 99;
+  padding: 0 ($p-container + 60);
+  align-items: center;
+  min-height: 49px;
+  box-shadow: 0 -3px 10px 5px rgba(0, 0, 0, .1);
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid $lightGray;
+  margin-bottom: 20px;
+
+}
+

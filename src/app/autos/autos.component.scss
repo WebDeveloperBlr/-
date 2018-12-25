@@ -1,0 +1,12 @@
+@import "../vars";
+
+.table-wrapper {
+  border: 1px solid $lightGray;
+  margin: 0 $p-container;
+  overflow: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}

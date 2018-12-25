@@ -1,0 +1,28 @@
+<div class="filter-bar">
+
+  <div class="filter-bar-wrapper">
+    <div class="field-wrapper">
+      <label>Номер</label>
+      <input name="number-field" class="number-field filter-bar-input" (keyup)="filterData()"
+             [(ngModel)]="filterObj.number" type="text"/>
+    </div>
+    <div class="field-wrapper">
+      <label>Марка/Модель</label>
+      <input name="model-field" class="model-field filter-bar-input" (keyup)="filterData()"
+             [(ngModel)]="filterObj.model.name" type="text"/>
+    </div>
+    <!--<div class="field-wrapper">
+      <label>Категория</label>
+      <input name="number-field" class="number-field filter-bar-input" [(ngModel)]="filterObj.model.category.name" type="text"/>
+    </div>-->
+    <div class="field-wrapper">
+      <label>Владелец</label>
+      <input name="number-field" class="number-field filter-bar-input" (keyup)="filterData()"
+             [(ngModel)]="filterObj.person.name" type="text"/>
+    </div>
+    <!--<div class="field-wrapper">
+      <label>Техосмотр</label>
+      <mat-checkbox class="example-margin" (change)="onChange()" [(ngModel)]="checkup"></mat-checkbox>
+    </div>-->
+  </div>
+</div>

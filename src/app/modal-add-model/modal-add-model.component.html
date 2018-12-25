@@ -1,0 +1,36 @@
+<div mat-dialog-content>
+  <div class="add-model-dialog-content d-flex flex-column">
+    <div class="col-lg-12 d-flex flex-column">
+      <h5 class="header-6">Добавить марку</h5>
+      <input class="add-model-input modal-input" [(ngModel)]="newBrand.name" type="text">
+      <div class="add-button-wrap">
+        <div class="add-button" (click)="addBrand()">Добавить</div>
+      </div>
+    </div>
+    <div class="col-lg-12">
+      <h5 class="header-6">Добавить модель</h5>
+      <div class="modal-add-model-inputs-wrap d-flex flex-column">
+        <mat-select placeholder="Выберите марку" [(ngModel)]="selectedBrandValue" name="brand">
+          <mat-option *ngFor="let brand of data.brands" [value]="brand">
+            {{brand.name}}
+          </mat-option>
+        </mat-select>
+        <label>Модель</label>
+        <input class="add-brand-input modal-input" [(ngModel)]="newModelValue" type="text">
+        <label>Категория</label>
+        <mat-select placeholder="Выберите марку" [(ngModel)]="selectedCategValue" name="categ">
+          <mat-option *ngFor="let categ of data.categories" [value]="categ">
+            {{categ.name}}
+          </mat-option>
+        </mat-select>
+
+        <div class="add-button-wrap">
+          <div class="add-button" (click)="addModel()">Добавить</div>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+</div>
+

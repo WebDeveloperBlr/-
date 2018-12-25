@@ -1,1 +1,39 @@
 /* You can add global styles to this file, and also import other style files */
+@import "app/vars";
+@import "~normalize.css/normalize.css";
+@import "~bootstrap/dist/css/bootstrap.css";
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+
+
+.mat-table {
+  border: 1px solid #e6e6e6;
+  border-top: none;
+  border-bottom: none;
+  position: relative;
+}
+
+.mat-header-row {
+  table-layout: fixed;
+  top: 0;
+}
+
+.mat-cell, .mat-header-cell {
+  &.mat-column-id_auto {
+    flex: 0;
+    flex-basis: 40px;
+  }
+
+  &:not(:first-of-type) {
+    text-align: center;
+  }
+
+  &:last-of-type {
+    text-align: right;
+  }
+}
+
+label {
+  margin: 0;
+}
+
+

@@ -1,0 +1,20 @@
+version: '2'
+services:
+  web:
+    environment:
+      MYSQL_HOST: db
+      MYSQL_DATABASE: 'AUTO_CRM'
+    command: npm start
+    build: .
+    depends_on:
+      - db
+    volumes:
+      - .:/app
+    ports:
+      - 8080:8080
+  db:
+    build: db-service
+    ports:
+      - 3306:3306
+    volumes:
+      - ./db_data:/var/lib/mysql

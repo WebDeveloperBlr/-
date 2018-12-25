@@ -1,0 +1,712 @@
+[
+  {
+    "id_auto": "5afc13683d3703708f47f38a",
+    "model": "Almera",
+    "brand": "Renault",
+    "peson": {
+      "name": "Venua",
+      "secondName": "Zahareyski",
+      "thirdName": "Vitalievich"
+    },
+    "number": "5422AF-5",
+    "category": "B",
+    "oil": "АИ-92"
+  },
+  {
+    "id_auto": "5afc1368d8fcd072e314b82f",
+    "model": "Almera",
+    "brand": "Nissan",
+    "peson": {
+      "name": "Gena",
+      "secondName": "Paleshuk",
+      "thirdName": "Vitalievich"
+    },
+    "number": "5645BG-7",
+    "category": "A",
+    "checkUp": {
+      "dateStart": "Tue May 30 1978 05:19:43 GMT+0300 (Беларусь (зима))",
+      "dateEnd": "{{date()}"
+    },
+    "oil": "АИ-92"
+  },
+  {
+    "id_auto": "5afc1368277f4bd9fc41118b",
+    "model": "WRX STi",
+    "brand": "Ford",
+    "peson": {
+      "name": "Venua",
+      "secondName": "Dzagoev",
+      "thirdName": "Dmitrievich"
+    },
+    "number": "6666AE-2",
+    "category": "B",
+    "checkUp": {
+      "dateStart": "Sun Dec 12 2010 15:53:52 GMT+0300 (Беларусь (зима))",
+      "dateEnd": "{{date()}"
+    },
+    "oil": "АИ-95"
+  },
+  {
+    "id_auto": "5afc1368b68a8cf0b5e5dee9",
+    "model": "WRX STi",
+    "brand": "Ford",
+    "peson": {
+      "name": "Dima",
+      "secondName": "Zahareyski",
+      "thirdName": "Dmitrievich"
+    },
+    "number": "5645BG-7",
+    "category": "A",
+    "checkUp": {
+      "dateStart": "Wed Sep 16 1981 13:25:20 GMT+0300 (Беларусь (зима))",
+      "dateEnd": "{{date()}"
+    },
+    "oil": "ДТ"
+  },
+  {
+    "id_auto": "5afc1368902da955b51728cb",
+    "model": "Almera",
+    "brand": "Ford",
+    "peson": {
+      "name": "Gena",
+      "secondName": "Korlev",
+      "thirdName": "Artemovich"
+    },
+    "number": "5422AF-5",
+    "category": "B",
+    "checkUp": {
+      "dateStart": "Tue Apr 03 1973 14:18:43 GMT+0300 (Беларусь (зима))",
+      "dateEnd": "{{date()}"
+    },
+    "oil": "ДТ"
+  },
+  {
+    "id_auto": "5afc13681bde8255127ec7be",
+    "model": "Lancer",
+    "brand": "Ford",
+    "peson": {
+      "name": "Dima",
+      "secondName": "Paleshuk",
+      "thirdName": "Genadieich"
+    },
+    "number": "5422AF-5",
+    "category": "A",
+    "checkUp": {
+      "dateStart": "Fri Nov 01 1991 10:30:46 GMT+0300 (Беларусь (зима))",
+      "dateEnd": "{{date()}"
+    },
+    "oil": "АИ-92"
+  },
+  {
+    "id_auto": "5afc13689b22b4c3685be357",
+    "model": "WRX STi",
+    "brand": "Nissan",
+    "peson": {
+      "name": "Dima",
+      "secondName": "Dzagoev",
+      "thirdName": "Vitalievich"
+    },
+    "number": "5645BG-7",
+    "category": "A",
+    "checkUp": {
+      "dateStart": "Thu Jan 03 1980 13:08:37 GMT+0300 (Беларусь (зима))",
+      "dateEnd": "{{date()}"
+    },
+    "oil": "АИ-92"
+  },
+  {
+    "id_auto": "5afc1368d5aa4b681c980071",
+    "model": "Focus",
+    "brand": "Ford",
+    "peson": {
+      "name": "Venua",
+      "secondName": "Paleshuk",
+      "thirdName": "Artemovich"
+    },
+    "number": "5422AF-5",
+    "category": "A",
+    "checkUp": {
+      "dateStart": "Sat Jul 19 1997 11:08:03 GMT+0300 (Беларусь (зима))",
+      "dateEnd": "{{date()}"
+    },
+    "oil": "АИ-95"
+  },
+  {
+    "id_auto": "5afc136879e103ac8f5055dd",
+    "model": "WRX STi",
+    "brand": "Ford",
+    "peson": {
+      "name": "Rita",
+      "secondName": "Dzagoev",
+      "thirdName": "Vitalievich"
+    },
+    "number": "5422AF-5",
+    "category": "B",
+    "checkUp": {
+      "dateStart": "Sat Jun 26 1971 00:48:22 GMT+0300 (Беларусь (зима))",
+      "dateEnd": "{{date()}"
+    },
+    "oil": "АИ-95"
+  },
+  {
+    "id_auto": "5afc136880861d89e5213804",
+    "model": "Lancer",
+    "brand": "Nissan",
+    "peson": {
+      "name": "Gena",
+      "secondName": "Dzagoev",
+      "thirdName": "Dmitrievich"
+    },
+    "number": "6666AE-2",
+    "category": "A",
+    "checkUp": {
+      "dateStart": "Sat Mar 13 1971 03:08:26 GMT+0300 (Беларусь (зима))",
+      "dateEnd": "{{date()}"
+    },
+    "oil": "АИ-92"
+  },
+  {
+    "id_auto": "5afc1368938e9d07ad0ccf63",
+    "model": "Focus",
+    "brand": "Ford",
+    "peson": {
+      "name": "Gena",
+      "secondName": "Korlev",
+      "thirdName": "Artemovich"
+    },
+    "number": "5211RG-3",
+    "category": "A",
+    "checkUp": {
+      "dateStart": "Fri Nov 22 1985 14:51:23 GMT+0300 (Беларусь (зима))",
+      "dateEnd": "{{date()}"
+    },
+    "oil": "АИ-95"
+  },
+  {
+    "id_auto": "5afc13689a86b064ad35c680",
+    "model": "Focus",
+    "brand": "Nissan",
+    "peson": {
+      "name": "Rita",
+      "secondName": "Zahareyski",
+      "thirdName": "Dmitrievich"
+    },
+    "number": "5422AF-5",
+    "category": "A",
+    "checkUp": {
+      "dateStart": "Mon May 01 2017 21:12:33 GMT+0300 (Беларусь (зима))",
+      "dateEnd": "{{date()}"
+    },
+    "oil": "АИ-92"
+  },
+  {
+    "id_auto": "5afc1368fbab404526594cc8",
+    "model": "Focus",
+    "brand": "Nissan",
+    "peson": {
+      "name": "Venua",
+      "secondName": "Paleshuk",
+      "thirdName": "Vitalievich"
+    },
+    "number": "5645BG-7",
+    "category": "B",
+    "checkUp": {
+      "dateStart": "Thu Sep 08 1994 08:28:44 GMT+0300 (Беларусь (зима))",
+      "dateEnd": "{{date()}"
+    },
+    "oil": "АИ-95"
+  },
+  {
+    "id_auto": "5afc1368c6113220fd4161ba",
+    "model": "WRX STi",
+    "brand": "Ford",
+    "peson": {
+      "name": "Dima",
+      "secondName": "Korlev",
+      "thirdName": "Vitalievich"
+    },
+    "number": "6666AE-2",
+    "category": "A",
+    "checkUp": {
+      "dateStart": "Fri Jul 09 1971 22:32:30 GMT+0300 (Беларусь (зима))",
+      "dateEnd": "{{date()}"
+    },
+    "oil": "АИ-95"
+  },
+  {
+    "id_auto": "5afc13680be28ad53b05a8ba",
+    "model": "Lancer",
+    "brand": "Subaru",
+    "peson": {
+      "name": "Rita",
+      "secondName": "Paleshuk",
+      "thirdName": "Dmitrievich"
+    },
+    "number": "6666AE-2",
+    "category": "B",
+    "checkUp": {
+      "dateStart": "Sat Dec 17 1977 09:55:26 GMT+0300 (Беларусь (зима))",
+      "dateEnd": "{{date()}"
+    },
+    "oil": "АИ-95"
+  },
+  {
+    "id_auto": "5afc1368833de5e18949eeae",
+    "model": "Focus",
+    "brand": "Nissan",
+    "peson": {
+      "name": "Rita",
+      "secondName": "Zahareyski",
+      "thirdName": "Dmitrievich"
+    },
+    "number": "6666AE-2",
+    "category": "A",
+    "checkUp": {
+      "dateStart": "Mon Sep 01 1980 03:22:05 GMT+0300 (Беларусь (зима))",
+      "dateEnd": "{{date()}"
+    },
+    "oil": "АИ-95"
+  },
+  {
+    "id_auto": "5afc1368bb6d473f1f54312a",
+    "model": "Focus",
+    "brand": "Nissan",
+    "peson": {
+      "name": "Dima",
+      "secondName": "Dzagoev",
+      "thirdName": "Vitalievich"
+    },
+    "number": "5211RG-3",
+    "category": "A",
+    "checkUp": {
+      "dateStart": "Thu Sep 14 2017 14:50:27 GMT+0300 (Беларусь (зима))",
+      "dateEnd": "{{date()}"
+    },
+    "oil": "АИ-95"
+  },
+  {
+    "id_auto": "5afc13682d2aed5f804e3def",
+    "model": "WRX STi",
+    "brand": "Renault",
+    "peson": {
+      "name": "Venua",
+      "secondName": "Korlev",
+      "thirdName": "Genadieich"
+    },
+    "number": "5211RG-3",
+    "category": "A",
+    "checkUp": {
+      "dateStart": "Wed Jul 01 2015 09:49:32 GMT+0300 (Беларусь (зима))",
+      "dateEnd": "{{date()}"
+    },
+    "oil": "ДТ"
+  },
+  {
+    "id_auto": "5afc1368c70719720243ad24",
+    "model": "Almera",
+    "brand": "Subaru",
+    "peson": {
+      "name": "Dima",
+      "secondName": "Paleshuk",
+      "thirdName": "Artemovich"
+    },
+    "number": "5422AF-5",
+    "category": "A",
+    "checkUp": {
+      "dateStart": "Sun Feb 02 2014 15:12:29 GMT+0300 (Беларусь (зима))",
+      "dateEnd": "{{date()}"
+    },
+    "oil": "ДТ"
+  },
+  {
+    "id_auto": "5afc13683ae3edb010b2acf5",
+    "model": "Lancer",
+    "brand": "Nissan",
+    "peson": {
+      "name": "Rita",
+      "secondName": "Korlev",
+      "thirdName": "Vitalievich"
+    },
+    "number": "5422AF-5",
+    "category": "A",
+    "checkUp": {
+      "dateStart": "Sun Dec 29 2013 14:34:11 GMT+0300 (Беларусь (зима))",
+      "dateEnd": "{{date()}"
+    },
+    "oil": "ДТ"
+  },
+  {
+    "id_auto": "5afc1368ad927d1a408b92ed",
+    "model": "Focus",
+    "brand": "Subaru",
+    "peson": {
+      "name": "Venua",
+      "secondName": "Paleshuk",
+      "thirdName": "Artemovich"
+    },
+    "number": "5645BG-7",
+    "category": "A",
+    "checkUp": {
+      "dateStart": "Mon Jun 03 1985 04:34:45 GMT+0300 (Беларусь (зима))",
+      "dateEnd": "{{date()}"
+    },
+    "oil": "АИ-95"
+  },
+  {
+    "id_auto": "5afc13689b6ae4106f3e578a",
+    "model": "Focus",
+    "brand": "Renault",
+    "peson": {
+      "name": "Gena",
+      "secondName": "Paleshuk",
+      "thirdName": "Artemovich"
+    },
+    "number": "5645BG-7",
+    "category": "A",
+    "checkUp": {
+      "dateStart": "Tue May 20 1986 18:10:24 GMT+0300 (Беларусь (зима))",
+      "dateEnd": "{{date()}"
+    },
+    "oil": "ДТ"
+  },
+  {
+    "id_auto": "5afc13686e5976ea0c527809",
+    "model": "WRX STi",
+    "brand": "Nissan",
+    "peson": {
+      "name": "Rita",
+      "secondName": "Paleshuk",
+      "thirdName": "Genadieich"
+    },
+    "number": "5422AF-5",
+    "category": "B",
+    "checkUp": {
+      "dateStart": "Thu Aug 13 2015 23:20:29 GMT+0300 (Беларусь (зима))",
+      "dateEnd": "{{date()}"
+    },
+    "oil": "АИ-92"
+  },
+  {
+    "id_auto": "5afc136830824f00d41b0ef5",
+    "model": "Almera",
+    "brand": "Ford",
+    "peson": {
+      "name": "Venua",
+      "secondName": "Zahareyski",
+      "thirdName": "Vitalievich"
+    },
+    "number": "5211RG-3",
+    "category": "A",
+    "checkUp": {
+      "dateStart": "Sun May 27 1990 15:17:04 GMT+0300 (Беларусь (зима))",
+      "dateEnd": "{{date()}"
+    },
+    "oil": "АИ-92"
+  },
+  {
+    "id_auto": "5afc136880830e24a3833031",
+    "model": "Lancer",
+    "brand": "Ford",
+    "peson": {
+      "name": "Gena",
+      "secondName": "Zahareyski",
+      "thirdName": "Dmitrievich"
+    },
+    "number": "6666AE-2",
+    "category": "B",
+    "checkUp": {
+      "dateStart": "Fri Feb 26 1982 14:44:59 GMT+0300 (Беларусь (зима))",
+      "dateEnd": "{{date()}"
+    },
+    "oil": "АИ-95"
+  },
+  {
+    "id_auto": "5afc1368f13c5ab3dabc2b5a",
+    "model": "Focus",
+    "brand": "Renault",
+    "peson": {
+      "name": "Gena",
+      "secondName": "Paleshuk",
+      "thirdName": "Genadieich"
+    },
+    "number": "6666AE-2",
+    "category": "A",
+    "checkUp": {
+      "dateStart": "Sat Jan 01 2000 10:49:38 GMT+0300 (Беларусь (зима))",
+      "dateEnd": "{{date()}"
+    },
+    "oil": "АИ-92"
+  },
+  {
+    "id_auto": "5afc1368bde8d725be9bbe8f",
+    "model": "Lancer",
+    "brand": "Subaru",
+    "peson": {
+      "name": "Venua",
+      "secondName": "Zahareyski",
+      "thirdName": "Vitalievich"
+    },
+    "number": "5645BG-7",
+    "category": "A",
+    "checkUp": {
+      "dateStart": "Wed Dec 31 2003 17:34:55 GMT+0300 (Беларусь (зима))",
+      "dateEnd": "{{date()}"
+    },
+    "oil": "ДТ"
+  },
+  {
+    "id_auto": "5afc13684bcdf60fbadc6ca1",
+    "model": "WRX STi",
+    "brand": "Nissan",
+    "peson": {
+      "name": "Gena",
+      "secondName": "Dzagoev",
+      "thirdName": "Genadieich"
+    },
+    "number": "5211RG-3",
+    "category": "B",
+    "checkUp": {
+      "dateStart": "Fri Feb 17 1978 19:37:26 GMT+0300 (Беларусь (зима))",
+      "dateEnd": "{{date()}"
+    },
+    "oil": "ДТ"
+  },
+  {
+    "id_auto": "5afc1368df14c9238032047e",
+    "model": "WRX STi",
+    "brand": "Subaru",
+    "peson": {
+      "name": "Venua",
+      "secondName": "Korlev",
+      "thirdName": "Artemovich"
+    },
+    "number": "5211RG-3",
+    "category": "A",
+    "checkUp": {
+      "dateStart": "Wed Jul 24 2002 08:44:59 GMT+0300 (Беларусь (зима))",
+      "dateEnd": "{{date()}"
+    },
+    "oil": "АИ-95"
+  },
+  {
+    "id_auto": "5afc13680f6c7ccee388023b",
+    "model": "Lancer",
+    "brand": "Nissan",
+    "peson": {
+      "name": "Venua",
+      "secondName": "Dzagoev",
+      "thirdName": "Dmitrievich"
+    },
+    "number": "5645BG-7",
+    "category": "A",
+    "checkUp": {
+      "dateStart": "Thu Apr 23 2009 16:33:59 GMT+0300 (Беларусь (зима))",
+      "dateEnd": "{{date()}"
+    },
+    "oil": "АИ-92"
+  },
+  {
+    "id_auto": "5afc136883e63ce994095dbb",
+    "model": "Lancer",
+    "brand": "Nissan",
+    "peson": {
+      "name": "Rita",
+      "secondName": "Zahareyski",
+      "thirdName": "Vitalievich"
+    },
+    "number": "5422AF-5",
+    "category": "A",
+    "checkUp": {
+      "dateStart": "Wed Sep 24 1975 12:15:06 GMT+0300 (Беларусь (зима))",
+      "dateEnd": "{{date()}"
+    },
+    "oil": "ДТ"
+  },
+  {
+    "id_auto": "5afc13681413c9422d40247b",
+    "model": "Focus",
+    "brand": "Renault",
+    "peson": {
+      "name": "Gena",
+      "secondName": "Dzagoev",
+      "thirdName": "Vitalievich"
+    },
+    "number": "6666AE-2",
+    "category": "B",
+    "checkUp": {
+      "dateStart": "Sun Sep 07 2008 03:57:01 GMT+0300 (Беларусь (зима))",
+      "dateEnd": "{{date()}"
+    },
+    "oil": "АИ-92"
+  },
+  {
+    "id_auto": "5afc136854c4edc7877503b3",
+    "model": "Almera",
+    "brand": "Renault",
+    "peson": {
+      "name": "Venua",
+      "secondName": "Korlev",
+      "thirdName": "Genadieich"
+    },
+    "number": "5645BG-7",
+    "category": "B",
+    "checkUp": {
+      "dateStart": "Thu Jun 15 2000 14:12:34 GMT+0300 (Беларусь (зима))",
+      "dateEnd": "{{date()}"
+    },
+    "oil": "АИ-92"
+  },
+  {
+    "id_auto": "5afc13687deeb2e251ad9db3",
+    "model": "WRX STi",
+    "brand": "Renault",
+    "peson": {
+      "name": "Gena",
+      "secondName": "Paleshuk",
+      "thirdName": "Vitalievich"
+    },
+    "number": "5645BG-7",
+    "category": "B",
+    "checkUp": {
+      "dateStart": "Mon Nov 29 1976 19:26:51 GMT+0300 (Беларусь (зима))",
+      "dateEnd": "{{date()}"
+    },
+    "oil": "АИ-92"
+  },
+  {
+    "id_auto": "5afc1368354305e2bd12333d",
+    "model": "Lancer",
+    "brand": "Renault",
+    "peson": {
+      "name": "Venua",
+      "secondName": "Paleshuk",
+      "thirdName": "Artemovich"
+    },
+    "number": "5422AF-5",
+    "category": "A",
+    "checkUp": {
+      "dateStart": "Tue Sep 04 1973 04:15:38 GMT+0300 (Беларусь (зима))",
+      "dateEnd": "{{date()}"
+    },
+    "oil": "АИ-92"
+  },
+  {
+    "id_auto": "5afc1368dbd252500b43f778",
+    "model": "Lancer",
+    "brand": "Renault",
+    "peson": {
+      "name": "Rita",
+      "secondName": "Zahareyski",
+      "thirdName": "Vitalievich"
+    },
+    "number": "5211RG-3",
+    "category": "B",
+    "checkUp": {
+      "dateStart": "Fri Oct 13 2006 00:23:10 GMT+0300 (Беларусь (зима))",
+      "dateEnd": "{{date()}"
+    },
+    "oil": "ДТ"
+  },
+  {
+    "id_auto": "5afc13684092be621fbb5181",
+    "model": "WRX STi",
+    "brand": "Renault",
+    "peson": {
+      "name": "Dima",
+      "secondName": "Zahareyski",
+      "thirdName": "Vitalievich"
+    },
+    "number": "5211RG-3",
+    "category": "A",
+    "checkUp": {
+      "dateStart": "Tue Jun 10 1980 09:50:05 GMT+0300 (Беларусь (зима))",
+      "dateEnd": "{{date()}"
+    },
+    "oil": "АИ-95"
+  },
+  {
+    "id_auto": "5afc13683d49221817cd0d07",
+    "model": "WRX STi",
+    "brand": "Ford",
+    "peson": {
+      "name": "Gena",
+      "secondName": "Dzagoev",
+      "thirdName": "Vitalievich"
+    },
+    "number": "5211RG-3",
+    "category": "B",
+    "checkUp": {
+      "dateStart": "Mon Jan 17 1972 00:54:04 GMT+0300 (Беларусь (зима))",
+      "dateEnd": "{{date()}"
+    },
+    "oil": "ДТ"
+  },
+  {
+    "id_auto": "5afc13688c1066a359e62f82",
+    "model": "Almera",
+    "brand": "Ford",
+    "peson": {
+      "name": "Dima",
+      "secondName": "Paleshuk",
+      "thirdName": "Dmitrievich"
+    },
+    "number": "5211RG-3",
+    "category": "B",
+    "checkUp": {
+      "dateStart": "Thu Dec 29 1983 11:39:10 GMT+0300 (Беларусь (зима))",
+      "dateEnd": "{{date()}"
+    },
+    "oil": "ДТ"
+  },
+  {
+    "id_auto": "5afc1368f3150fb7b5c2b523",
+    "model": "Almera",
+    "brand": "Renault",
+    "peson": {
+      "name": "Venua",
+      "secondName": "Zahareyski",
+      "thirdName": "Vitalievich"
+    },
+    "number": "5211RG-3",
+    "category": "B",
+    "checkUp": {
+      "dateStart": "Sat Mar 04 2006 20:03:30 GMT+0300 (Беларусь (зима))",
+      "dateEnd": "{{date()}"
+    },
+    "oil": "АИ-92"
+  },
+  {
+    "id_auto": "5afc13685d623361621d79ba",
+    "model": "WRX STi",
+    "brand": "Ford",
+    "peson": {
+      "name": "Venua",
+      "secondName": "Korlev",
+      "thirdName": "Genadieich"
+    },
+    "number": "5422AF-5",
+    "category": "B",
+    "checkUp": {
+      "dateStart": "Wed Jan 21 1981 15:06:43 GMT+0300 (Беларусь (зима))",
+      "dateEnd": "{{date()}"
+    },
+    "oil": "АИ-95"
+  },
+  {
+    "id_auto": "5afc1368b7c56dc379413ef4",
+    "model": "Almera",
+    "brand": "Nissan",
+    "peson": {
+      "name": "Gena",
+      "secondName": "Zahareyski",
+      "thirdName": "Genadieich"
+    },
+    "number": "6666AE-2",
+    "category": "A",
+    "checkUp": {
+      "dateStart": "Tue Nov 18 1980 13:09:17 GMT+0300 (Беларусь (зима))",
+      "dateEnd": "{{date()}"
+    },
+    "oil": "ДТ"
+  }
+]

@@ -1,0 +1,28 @@
+@import "../vars";
+
+.filter-bar {
+  font-size: 15px;
+  padding: 0 ($p-container + 40);
+  margin-bottom: 20px;
+}
+
+.filter-bar-header {
+  font-weight: 400;
+}
+
+.filter-bar-input {
+  height: 25px;
+  width: 70px;
+  border-radius: 2px;
+  border: 1px solid $middleGray;
+  margin-left: 5px;
+}
+
+.field-wrapper {
+  margin-right: 15px;
+}
+
+.filter-bar-wrapper {
+  display: flex;
+  justify-content: flex-start;
+}

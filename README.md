@@ -1,27 +1,40 @@
 # AutoCRM
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.4.
+Курсовой проект на Angular 6, Node.js, MySql на тему Автоматизированное место работника АЗС
+(АРМ сотрудника АЗС). Старый минимальный курсач, он умеет показывать
+информацию, добавлять информацию. Никаких нормальных моделей
+тут нет, все сделанно давно и наспех, никаких оптимизаций,
+но они тут и не нужны. Главное тут - это относительно лекий старт
+проекта: автоматическое создание базы и ее запуск вместе с сервером, 
+а также готовая пояснительная записка.
 
-## Development server
+## Запуск проекта
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Для корректного запуска вам понадобятся:
 
-## Code scaffolding
+- [Nodejs](https://nodejs.org/);
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Docker [Docker for windows](https://docs.docker.com/docker-for-windows/install/);
 
-## Build
+- Angular 6 (или выше): открываем коммандную строку и набираем `npm install -g @angular/cli`.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+### Запуск фронтенда
 
-## Running unit tests
+- Через командную строку в корне проекта вводим `npm i`.
+- Далее там же вводим `ng serve -o`
+ 
+Должен сбилдиться проект и автоматически открыться в браузере.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### Запуск бэкенда
 
-## Running end-to-end tests
+- Заходим в папку web-service и открываем там командную строку;
+- Вводим `docker-compose up`;
+ 
+Должены сбилдиться контейнеры и запуститься. В консоли должно 
+появиться сообщение, что сервер запущен и база подключена.
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+Если все так как нужно, то проект запущен!
 
-## Further help
+## Примечание
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+У вас должны быть свободные порты 8080 и 3306
